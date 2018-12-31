@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="lenkart.lenskart.Testngsample">
+        <methods>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+          <include name="printtestdetails"/>
+          <include name="readingfrompropertiesfile"/>
+          <include name="beforemethod"/>
+          <include name="checkpropertiesfile"/>
+        </methods>
+      </class> <!-- lenkart.lenskart.Testngsample -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
